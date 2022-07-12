@@ -3,6 +3,7 @@ import Pagination from '@mui/material/Pagination';
 import { Box, Stack, Typography } from '@mui/material/';
 
 import { exerciseOptions, fetchData } from '../utils/fetchData';
+import ExercisesCard from './ExercisesCard';
 
 export default function Exercises({ exercises, setExercises, bodyPart }) {
   return (
@@ -19,7 +20,7 @@ export default function Exercises({ exercises, setExercises, bodyPart }) {
         justifyContent="center"
       >
         {exercises.map((exercise, index) => (
-          <p>{exercise.name}</p>
+          <ExercisesCard exercise={exercise} />
         ))}
       </Stack>
     </Box>
