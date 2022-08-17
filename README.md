@@ -2,8 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/69916500/185209913-ae441249-63fa-474f-92c2-f1fc30e6e6d6.png)
 
-<p>Link para a videoaula do projeto => https://youtu.be/KBpoBc98BwM</p>
-
 ## 👷 Como rodar
 
 ```bash
